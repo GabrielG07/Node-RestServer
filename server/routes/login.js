@@ -1,7 +1,7 @@
 // Requires
 const express = require('express');
 const Usuario = require('../models/usuario');
-const bcrypt = require('bcrypt');
+const bcrypt = require('../app').bcrypt;
 const jwt = require('jsonwebtoken');
 
 const app = express();
